@@ -1,7 +1,7 @@
 <template>
   <img
     class="rounded-lg shadow-xl mb-6 sm:mb-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
-    src="../assets/img/beach-work.jpg"
+    src="../../assets/img/beach-work.jpg"
     alt="Woman working on the beach"
   />
   <h1
