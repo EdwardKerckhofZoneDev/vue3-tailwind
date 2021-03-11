@@ -7,11 +7,7 @@
       <Landing />
     </div>
     <div class="hidden relative lg:block 2xl:col-span-3">
-      <img
-        class="absolute inset-0 w-full h-full object-cover object-center"
-        src="./assets/img/beach-work.jpg"
-        alt="Woman working on the beach"
-      />
+      <LandingImageLg />
     </div>
   </div>
 </template>
@@ -19,11 +15,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Landing from './components/Landing.vue'
+import LandingImageLg from './components/landing/LandingImageLg.vue'
 import Logo from './components/shared/Logo.vue'
 
 export default defineComponent({
   name: 'App',
-  components: { Landing, Logo }
+  components: { Landing, Logo, LandingImageLg }
 })
 </script>
 
