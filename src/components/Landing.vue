@@ -1,5 +1,9 @@
 <template>
-  <h1>Hello</h1>
+  <img
+    class="rouded"
+    src="../assets/img/beach-work.jpg"
+    alt="Woman working on the beach"
+  />
 </template>
 
 <script lang="ts">

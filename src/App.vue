@@ -1,7 +1,9 @@
 <template>
   <div id="app" class="min-h-screen bg-gray-100">
-    <logo />
-    <landing />
+    <div class="px-8 py-12">
+      <Logo class="h-10 mb-6" />
+      <Landing />
+    </div>
   </div>
 </template>
 

@@ -1,26 +1,25 @@
 /* eslint-disable */
 module.exports = {
+  root: true,
   env: {
-    browser: true,
-    es2021: true
+    node: true,
+    browser: true
   },
   extends: [
     'plugin:vue/vue3-recommended',
     'eslint:recommended',
     'prettier',
-    '@vue/typescript'
+    'plugin:prettier/recommended'
   ],
   parserOptions: {
-    ecmaVersion: 12,
-    parser: '@typescript-eslint/parser',
-    sourceType: 'module'
+    parser: '@typescript-eslint/parser'
   },
-  plugins: ['vue'],
   rules: {
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
+    'vue/component-name-in-template-casing': ['error', 'PascalCase'],
     'no-console': 'off',
     'no-debugger': 'off'
   }

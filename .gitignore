@@ -24,3 +24,6 @@ Thumbs.db
 *.sass-cache
 *.sw?
 *.vi
+
+# d.ts files
+src/*.d.ts
