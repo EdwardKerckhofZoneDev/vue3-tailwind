@@ -15,7 +15,7 @@
     you can enjoy some nice weather even when you're not on vacation.
   </p>
   <a
-    class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 text-white uppercase tracking-wider font-semibold text-sm sm:text-base"
+    class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 hover:bg-indigo-400 hover:-translate-y-0.5 transform transition-all focus:outline-none focus:ring focus:ring-offset-1 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600 text-white uppercase tracking-wider font-semibold text-sm sm:text-base"
     href="#"
   >
     Book your escape
